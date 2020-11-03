@@ -1,0 +1,50 @@
+div.card{
+      background-color: #7159c1;
+  
+}
+
+nav{
+      margin-top: 50px;
+      font-weight: bold;
+      color: #eceff1;
+      background-color: #7159c1;
+      text-align: center;
+}
+
+label{
+      color: #eceff1;
+      font-weight: bold;
+}
+
+
+.header-fixed {
+      width: 100% 
+  }
+  
+  .header-fixed > thead,
+  .header-fixed > tbody,
+  .header-fixed > thead > tr,
+  .header-fixed > tbody > tr,
+  .header-fixed > thead > tr > th,
+  .header-fixed > tbody > tr > td {
+      display: block;
+  }
+  
+  .header-fixed > tbody > tr:after,
+  .header-fixed > thead > tr:after {
+      content: ' ';
+      display: block;
+      visibility: hidden;
+      clear: both;
+  }
+  
+  .header-fixed > tbody {
+      overflow-y: auto;
+      height: 480px;
+  }
+  
+  .header-fixed > tbody > tr > td,
+  .header-fixed > thead > tr > th {
+      width: 20%;
+      float: left;
+  }
