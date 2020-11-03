@@ -25,13 +25,14 @@ $sql = "INSERT INTO PESSOAS ( ID_PESSOAS
                               ,EMAIL_PESSOAS
                               ,CPF_PESSOAS
                               ,TEL_PESSOAS) 
+                              ,INSERIDO)
                   VALUES (    
                               null
                               ,'$nome'
                               ,'$email'
                               ,'$cpf'
                               ,'$telefone'
-                              ,'now()'
+                              ,now()
                               )";
 
 //echo $sql;
