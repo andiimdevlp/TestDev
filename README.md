@@ -8,6 +8,6 @@
 #### Como usar
 
 ##### Para uso do codigo, abra o banco local e cria oa estancia com o nome "cadastro"
-##### após feito isto, importe do dump do repositorio para criação das tabelas, trigres e popular o banco.
+##### após feito isto, importe do dump do repositorio para criação das tabelas, triggers e popular o banco.
 
 :neckbeard:
